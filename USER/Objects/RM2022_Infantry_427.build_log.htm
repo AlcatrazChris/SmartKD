@@ -1,0 +1,691 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 1870953263@qq.com, 11, LIC=MPPLD-8F0UP-Y8ZFK-Z72TW-6IJFH-TF58W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\4.工作资料\智慧快递\SMARTKD\USER\RM2022_Infantry_427.uvprojx
+Project File Date:  05/19/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Infantry'
+compiling chassis.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.c: 19 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling main.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(19): warning:  #1295-D: Deprecated declaration Mib_Car - give arg types
+  void Mib_Car();
+main.c(120): warning:  #1-D: last line of file ends without a newline
+  	 
+main.c: 20 warnings, 0 errors
+compiling Astar.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\ASTAR\Astar.c(27): warning:  #223-D: function "memset" declared implicitly
+      memset(kown,  0, sizeof(kown));
+..\HARDWARE\ASTAR\Astar.c(114): warning:  #223-D: function "memset" declared implicitly
+      memset(dis, -1, sizeof(dis));
+..\HARDWARE\ASTAR\Astar.c: 20 warnings, 0 errors
+compiling infrared.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\INFRARED\infrared.c: 18 warnings, 0 errors
+compiling servo.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\HARDWARE\SERVO\servo.c: 18 warnings, 0 errors
+compiling gray.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\GRAY\gray.c: 18 warnings, 0 errors
+compiling can_handle.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.c: 19 warnings, 0 errors
+compiling led.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\LED\led.c: 18 warnings, 0 errors
+compiling beep.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.c: 19 warnings, 0 errors
+compiling dr16.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\DR16\dr16.c: 19 warnings, 0 errors
+compiling trace.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TRACE\trace.c: 18 warnings, 0 errors
+compiling power.c...
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.c: 19 warnings, 0 errors
+compiling can.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.c: 19 warnings, 0 errors
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_exti.c...
+assembling startup_stm32f427xx.s...
+compiling delay.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SYSTEM\delay\delay.c: 18 warnings, 0 errors
+compiling sys.c...
+compiling usart.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SYSTEM\usart\usart.c: 18 warnings, 0 errors
+compiling ramp.c...
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\POWER\power.h(5): warning:  #1295-D: Deprecated declaration Power_Init - give arg types
+  void Power_Init();
+..\HARDWARE\POWER\power.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();//初始化LED灯			    
+..\HARDWARE\DR16\dr16.h(70): warning:  #1295-D: Deprecated declaration DR16_Init - give arg types
+  void DR16_Init();
+..\HARDWARE\DR16\dr16.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN\can.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Beep_Init - give arg types
+  void Beep_Init();
+..\HARDWARE\BEEP\beep.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CAN_HANDLE\can_handle.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\CHASSIS\chassis.h(6): warning:  #1295-D: Deprecated declaration Chassis_Init - give arg types
+  void Chassis_Init();
+..\HARDWARE\CHASSIS\chassis.h(7): warning:  #1295-D: Deprecated declaration Chassis_Stop - give arg types
+  void Chassis_Stop();
+..\HARDWARE\CHASSIS\chassis.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GRAY\gray.h(23): warning:  #1295-D: Deprecated declaration Gray_Init - give arg types
+  void Gray_Init();
+..\HARDWARE\INFRARED\infrared.h(11): warning:  #1295-D: Deprecated declaration Infrared_Init - give arg types
+  void Infrared_Init();
+..\HARDWARE\ASTAR\Astar.h(10): warning:  #1295-D: Deprecated declaration Astar_Init - give arg types
+  void Astar_Init();
+..\HARDWARE\SERVO\servo.h(6): warning:  #1295-D: Deprecated declaration Servo_Init - give arg types
+  void Servo_Init();
+..\USER\main.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\TOOL\ramp.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=13376 RO-data=460 RW-data=72 ZI-data=2904  
+FromELF: creating hex file...
+".\Objects\RM2022_Infantry_427.axf" - 0 Error(s), 298 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
